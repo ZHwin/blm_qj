@@ -6,8 +6,8 @@ let localToken = ""
 
 main()
 async function main() {
-    this.homeToken = await getLogin(homeURL, 'AAO-R2bxXn-e', 'LJem0nCpKHzHmLb8EDd34XP_')  //来源青龙token
-    this.localToken = await getLogin(localURL, '_L0jJeoqQCgb', 'NmP-0WRdDPmAaY1xQPnF1wu9') //你要同步到的青龙地址token
+    this.homeToken = await getLogin(homeURL, 'Z44vK9uF-0a-', 'KeFEc8HXTGN-XwcJNkX99_iO')  //来源青龙token
+    this.localToken = await getLogin(localURL, '2Hc5ve2q8I_r', 'tbc0BqH7AwzghVwJKtgiM0m-') //你要同步到的青龙地址token
 
     const homeck = await qlselect(homeURL, 'elmqqck', this.homeToken)
     const localck = await qlselect(localURL, 'elmqqck', this.localToken)
